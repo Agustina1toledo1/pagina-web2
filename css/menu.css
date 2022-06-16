@@ -1,0 +1,38 @@
+header {
+    width: 100%;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+
+.logo {
+    text-align: center;
+    padding-top: 10px;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 1.5s;
+    text-decoration: none;
+    text-shadow: 0 0 0.2em #fff;
+}
+
+.menu {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a {
+    color: #000;
+    text-decoration: none;
+    margin: 5px;
+    /*background-color: #fff;*/
+}
+
+@media (min-width: 1024px) {
+    .logo {
+        font-size: 40px;
+    }
+}
